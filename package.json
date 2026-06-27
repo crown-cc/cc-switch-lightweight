@@ -1,0 +1,26 @@
+{
+  "name": "cc-switch",
+  "version": "1.0.0",
+  "description": "CLI tool to switch between Claude Code API providers",
+  "type": "module",
+  "bin": {
+    "cc-switch": "./bin/cc-switch.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "config.example.json"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "cli",
+    "anthropic",
+    "api",
+    "switch"
+  ],
+  "license": "MIT"
+}
